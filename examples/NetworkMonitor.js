@@ -13,7 +13,7 @@ var run = function() {
 
 
   var nm = new NetworkMonitor.create(config);
-  // monitor incoming transactions to http://tpfaucet.appspot.com/ donation address
+  // monitor incoming transactions to http://tpfaucet.appsunify.com/ donation address
   nm.incoming('msj42CCGruhRsFrGATiUuh25dtxYtnpbTx', function(tx) {
     console.log('Donation to tpfaucet! '+JSON.stringify(tx.getStandardizedObject()));
   });

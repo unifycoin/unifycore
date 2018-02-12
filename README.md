@@ -1,38 +1,38 @@
-Potcore
+Unifycore
 =======
 
 [![Build Status](https://travis-ci.org/bitpay/bitcore.svg?branch=master)](https://travis-ci.org/bitpay/bitcore)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore.svg)](https://coveralls.io/r/bitpay/bitcore)
 
-A pure, powerful core for your Potcoin project.
+A pure, powerful core for your Unifycoin project.
 
-Potcore is a complete, native interface to the Potcoin network, and provides the core functionality needed to develop
-apps for Potcoin.
+Unifycore is a complete, native interface to the Unifycoin network, and provides the core functionality needed to develop
+apps for Unifycoin.
 
 #Principles
 
-Potcoin is a powerful new peer-to-peer platform for the next generation of financial and social technology.
-The decentralized nature of the Potcoin network allows for highly resilient Potcoin infrastructure, and the developer
-community needs reliable, open-source tools to implement Potcoin apps and services.
+Unifycoin is a powerful new peer-to-peer platform for the next generation of financial and social technology.
+The decentralized nature of the Unifycoin network allows for highly resilient Unifycoin infrastructure, and the developer
+community needs reliable, open-source tools to implement Unifycoin apps and services.
 
-**Potcore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Potcoin network.**
+**Unifycore unchains developers from fallible, centralized APIs, and provides the tools to interact with the real Unifycoin network.**
 
 #Get Started
 
-Potcore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+Unifycore runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```
-npm install potcore
+npm install unifycore
 ```
 
-It is a collection of objects useful to Potcoin applications; class-like idioms are enabled via[Soop](https://github.com/bitpay/soop).
+It is a collection of objects useful to Unifycoin applications; class-like idioms are enabled via[Soop](https://github.com/bitpay/soop).
 In most cases, a developer will require the object's class directly. For instance:
 
 ```javascript
-var potcore = require('potcore');
-var Address = potcore.Address;
-var Transaction = potcore.Transaction;
-var PeerManager = potcore.PeerManager;
+var unifycore = require('unifycore');
+var Address = unifycore.Address;
+var Transaction = unifycore.Transaction;
+var PeerManager = unifycore.PeerManager;
 ```
 
 #Examples
@@ -52,24 +52,24 @@ Javascript files available at [/examples](/examples) folder.
 
 Please use at your own risk.
 
-Potcore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
-please email ren@potcoin.com
+Unifycore is still under heavy development and not quite ready for "drop-in" production use. If you find a security issue,
+please email ren@unifycoin.com
 
 #Contributing
 
-Potcore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
+Unifycore needs some developer love. Please send pull requests for bug fixes, code optimization, and ideas for improvement.
 
 #Browser support
 
 ## Building the browser bundle
 
-To build Potcore full bundle for the browser (this is automatically executed after you run `npm install`):
+To build Unifycore full bundle for the browser (this is automatically executed after you run `npm install`):
 
 ```
 node browser/build.js -a
 ```
 
-This will generate a `browser/bundle.js` file which you can include in your HTML to use Potcore in the browser.
+This will generate a `browser/bundle.js` file which you can include in your HTML to use Unifycore in the browser.
 
 ##Example browser usage
 
@@ -81,8 +81,8 @@ From example/simple.html
   <body>
     <script src="../browser/bundle.js"></script>
     <script>
-      var potcore = require('potcore');
-      var Address = potcore.Address;
+      var unifycore = require('unifycore');
+      var Address = unifycore.Address;
       var a = new Address('RqAahY1pTk1q417ALF4ScYGLWthphAGaHW');
       console.log('RqAahY1pTk1q417ALF4ScYGLWthphAGaHW is valid? '+a.isValid());
     </script>
@@ -94,26 +94,26 @@ You can check a more complex usage example at examples/example.html.
 
 ## Generating a customized browser bundle
 
-To build the main Potcore bundle, run:
+To build the main Unifycore bundle, run:
 
 ```
 node browser/build.js -m
 ```
 
-To build all features into the Potcore bundle (which will lead to a large file size), run:
+To build all features into the Unifycore bundle (which will lead to a large file size), run:
 
 ```
 node browser/build.js -a
 ```
 
-To generate a customized Potcore bundle, you can specify which submodules you want to include in it with the -s option:
+To generate a customized Unifycore bundle, you can specify which submodules you want to include in it with the -s option:
 
 ```
 node browser/build.js -s lib/Transaction,lib/Address
 ```
 
 This will generate a `browser/bundle.js` containing only the Transaction and Address class, with all their dependencies.
-Use this option if you are not using the whole Potcore library, to optimize the bundle size, script loading time, and general resource usage.
+Use this option if you are not using the whole Unifycore library, to optimize the bundle size, script loading time, and general resource usage.
 
 ## Tests
 

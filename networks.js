@@ -23,7 +23,7 @@ exports.livenet = {
         bits: 3165306666666630
     },
     dnsSeeds: [
-        'seedz.potcoin.info'
+        'seedz.unifycoin.info'
     ],
     defaultClientPort: 4200,
     lastPoWBlock: 974999

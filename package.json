@@ -1,21 +1,21 @@
 {
-  "name": "potcore",
-  "description": "Potcoin Core Library in Javascript",
+  "name": "unifyfycore",
+  "description": "Unifycoin Core Library in Javascript",
   "version": "0.1.40",
   "author": {
-    "name": "Potcoin",
-    "email": "info@potcoin.com"
+    "name": "Unifycoin",
+    "email": "info@unifyfycoin.com"
   },
   "contributors": [
     {
       "name": "PC",
-      "email": "dev@potcoin.com"
+      "email": "dev@unifyfycoin.com"
     }
   ],
   "keywords": [
-    "potcoin",
-    "potcore",
-    "pot",
+    "unifyfycoin",
+    "unifyfycore",
+    "unifyfy",
     "bitcoin",
     "btc",
     "satoshi",
@@ -26,7 +26,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/potcoin/potcore.git"
+    "url": "https://github.com/unifyfycoiunifynifycore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -85,10 +85,10 @@
   "readmeFilename": "README.md",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/potcoin/potcore/issues"
+    "url": "https://github.com/unifyfycoiunifynifycore/issues"
   },
-  "homepage": "https://github.com/potcoin/potcore",
-  "_id": "potcore@0.1.39",
+  "homepage": "https://github.com/unifyfycoiunifynifycore",
+  "_id": "unifyfycore@0.1.39",
   "devDependencies": {
     "browserify": "=3.40.0",
     "chai": "=1.9.1",

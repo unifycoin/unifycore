@@ -1,19 +1,19 @@
 {
-  "name": "potcore",
+  "name": "unifycore",
   "main": "browser/bundle.js",
   "version": "0.1.36",
-  "homepage": "https://github.com/potcoin/potcore",
+  "homepage": "https://github.com/unifycoin/unifycore",
   "authors": [
-    "Larry Ren (<ren@potcoin.com>)"
+    "Larry Ren (<ren@unifycoin.com>)"
   ],
-  "description": "Potcoin Core Library in Javascript",
+  "description": "Unifycoin Core Library in Javascript",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "potcoin",
-    "potcore",
-    "pot",
+    "unifycoin",
+    "unifycore",
+    "unify",
     "bitcoin",
     "bitcore",
     "btc",
