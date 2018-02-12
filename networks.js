@@ -13,17 +13,22 @@ exports.livenet = {
     hkeyPublicVersion: 0x0488b21e,
     hkeyPrivateVersion: 0x0488ade4,
     genesisBlock: {
-        hash: hex('ec3513ee046dcd52dd41975fcfab4f878f91890a4d17c07a1d7d9c2acbb036de'),
-        merkle_root: hex('3de5af055300a913c07e178efc107c9184dddcbc9d888aae7eea6ee00686a0d5'),
+        hash: hex('943dc625657143761f0f01dbf08c45a02260fc4089a27b20de3e42ae8a49154f'),
+        merkle_root: hex('214037fe78c284b2ee501e0c68d629126d394a4fa04f23f88699af72ceedcccd'),
         height: 0,
-        nonce: 471993,
+        nonce: 848210,
         version: 1,
         prev_hash: buffertools.fill(new Buffer(32), 0),
-        timestamp: 1389688315,
+        timestamp: 1497449710,
         bits: 3165306666666630
     },
     dnsSeeds: [
-        'seedz.unifycoin.info'
+        'node1.unifycoin.ovh',
+        'node2.unifycoin.ovh',
+        'node3.unifycoin.ovh',
+        'node1.unifycoin.pl',
+        'node2.unifycoin.pl',
+        'node3.unifycoin.pl'
     ],
     defaultClientPort: 4200,
     lastPoWBlock: 974999
