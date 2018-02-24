@@ -31,7 +31,7 @@ exports.livenet = {
         'node3.unifycoin.pl'
     ],
     defaultClientPort: 4200,
-    lastPoWBlock: 974999
+    lastPoWBlock: 15924
 };
 
 
